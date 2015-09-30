@@ -1,12 +1,13 @@
 use strict;
 use warnings;
 package Acme::DieOnLoad;
-# ABSTRACT: ...
-# KEYWORDS: ...
+# ABSTRACT: A module that dies when loaded
+# KEYWORDS: toolchain module distribution experimental test die broken
 # vim: set ts=8 sts=4 sw=4 tw=115 et :
 
 our $VERSION = '0.001';
 
+die 'I told you so. What did you expect?';
 
 1;
 __END__
@@ -15,27 +16,13 @@ __END__
 
 =head1 SYNOPSIS
 
-    use Acme::DieOnLoad;
+    require Acme::DieOnLoad;
 
-    ...
+    <kaboom>
 
 =head1 DESCRIPTION
 
-...
-
-=head1 FUNCTIONS/METHODS
-
-=head2 C<foo>
-
-...
-
-=head1 ACKNOWLEDGEMENTS
-
-...
-
-=head1 SEE ALSO
-
-=for :list
-* L<foo>
+This module installs cleanly, passing its tests, but dies when it is loaded.
+This is useful for toolchain testing.
 
 =cut
