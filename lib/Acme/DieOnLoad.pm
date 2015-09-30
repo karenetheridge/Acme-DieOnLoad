@@ -5,7 +5,7 @@ package Acme::DieOnLoad;
 # KEYWORDS: toolchain module distribution experimental test die broken
 # vim: set ts=8 sts=4 sw=4 tw=115 et :
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 die 'I told you so. What did you expect?';
 
