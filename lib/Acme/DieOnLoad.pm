@@ -1,9 +1,9 @@
 use strict;
 use warnings;
 package Acme::DieOnLoad;
+# vim: set ts=8 sts=4 sw=4 tw=115 et :
 # ABSTRACT: A module that dies when loaded
 # KEYWORDS: toolchain module distribution experimental test die broken
-# vim: set ts=8 sts=4 sw=4 tw=115 et :
 
 our $VERSION = '0.002';
 
