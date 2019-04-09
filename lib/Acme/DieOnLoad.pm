@@ -25,4 +25,8 @@ __END__
 This module installs cleanly, passing its tests, but dies when it is loaded.
 This is useful for toolchain testing.
 
+=head1 SEE ALSO
+
+L<Acme::Boom>
+
 =cut
